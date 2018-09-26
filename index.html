@@ -1,46 +1,79 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<script src="https://cavalcade-ford.motocommerce.com/integration/integration.js"></script>
-<title>Document</title>
-
+  <meta charset="utf-8">
+  <script src="https://cavalcade-ford.motocommerce.com/integration/integration.js"></script>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
 </head>
-	<body>
+<style type="text/css">
+	.card{
+		width:350px; 
+		height: 450px;
+		box-shadow: 0px 0px 15px #7c7c7c;
+		border-radius: 3px;
+
+	}
+	.header{
+		height: 50px;
+		width: 100%;
+		background-color: white;
+		color: #61101A;
+		text-align: center;
+		font-family: Arial;
+		font-size: 18px;
+		padding-top: 15px;
+		margin-bottom: -10px;
+
+	}
+	.image{
+		height: 250px;
+		width: 100%;
+		background-color: green;
+		background-image: url(http://motormag.pl/wp-content/uploads/2016/05/Autoweb-2016-January-Review-2017-Alfa-Romeo-Giulia-Quadrifoglio-008.jpg);
+		background-position: center;  
+		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+	.text{
+		padding-top: 15px;
+		padding-left: 10px;
+		padding-bottom: 15px;
+		background-color: white;
+		color: grey;
+		font-family: Arial;
+		font-size: 12px;
+
+	}
+	.motocommerce-vehicle-link{
+	    background-color: #61101A; 
+	    border: none;
+	    color: white;
+	    padding: 15px;
+	    width: 50%;
+	    text-align: center;
+	    text-decoration: none;
+	    font-size: 16px;
+	    font-family: Arial;
+	    margin-top: 10px;
+	    border-radius: 3px;
+	    display: block; 
+	    margin: 0 auto;
+
+	}
+
+</style>
+
+
+<body>
+	<div class="card">
+		<div class="header">2018 Giulia Quadrifoglio Verde</div>
+		<div class="image"></div>
+		<div class="text">With unmistakable elegance, the aerodynamic lines and race-inspired stance of the Giulia Quadrifoglio demonstrate how every element of this remarkable sport sedan is rooted in performance.</div>
 		<a href="#" class="motocommerce-vehicle-link" data-stock-id="J024">BUY NOW</a>
-		<ul class="navbar">
-		  <li class="motocommerce-login-widget">
-		    <a href="/" class="motocommerce-login-link">
-		      <span class="badge motocommerce-order-counter"></span>
-		      <span class="motocommerce-login-label">Login</span>
-		    </a>
-		  </li>
-		</ul>
-		
-<div class="w3-container">
-  <h2>Card Example</h2>
-
-  <div class="w3-card-4 w3-dark-grey" style="width:50%">
-
-    <div class="w3-container w3-center">
-      <h3>Friend Request</h3>
-      <img src="img_avatar3.png" alt="Avatar" style="width:80%">
-      <h5>John Doe</h5>
-
-      <div class="w3-section">
-        <button class="w3-button w3-green">Accept</button>
-        <button class="w3-button w3-red">Decline</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-
+	</div>
 </body>
-</html>
-		
-	</body>
 </html>
 
 
